@@ -1,0 +1,123 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-family: Poppins;
+}
+
+html{
+  height: 100%;
+  background-color: rgb(25, 9, 41);
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 6rem;
+  border-radius: 0.5rem;
+}
+
+
+
+header {
+  background-color: #000;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.nav-links a:hover {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+main {
+  flex: 1;
+}
+
+.search-input {
+  width: 100%;
+  min-width: 10rem;
+  height: 2rem;
+  padding: 15px 20px;
+  border: 2px solid #333;
+  border-radius: 50px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding-right: 60px;
+  color: #000;
+}
+
+/* Efeito ao focar no campo */
+.search-input:focus {
+  border-color: #ff6600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do botão de busca */
+.search-btn {
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.search-btn:hover {
+  color: #ff6600;
+}
+
+/* Estilo do container de busca */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+
