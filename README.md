@@ -1,5 +1,5 @@
 # ClickLab
-Landing page para meu blob, feita em HTML, CSS e JavaScript.
+Landing page para meu blog, feita em HTML, CSS e JavaScript.
 
 [Deploy](https://neojhonn.github.io/ClickLab)
 
