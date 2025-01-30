@@ -1,5 +1,5 @@
-# Jhonny's Store
-Landing page para minha loja online, feita em HTML, CSS e JavaScript.
+# ClickLab
+Landing page para meu blob, feita em HTML, CSS e JavaScript.
 
-[Deploy](https://neojhonn.github.io/jhonnys-store-landingpage)
+[Deploy](https://neojhonn.github.io/ClickLab)
 
