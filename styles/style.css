@@ -1,9 +1,13 @@
-* {
+body {
   margin: 0 0 0 0;
   padding: 0;
   box-sizing: border-box;
   color: aliceblue;
   font-family: Poppins;
+}
+
+h1 {
+  text-align: center;
 }
 
 html{
@@ -33,7 +37,7 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 nav {
@@ -72,6 +76,15 @@ nav {
 
 main {
   flex: 1;
+  color: #333;
+}
+
+main h1 {
+  color: #fff;
+}
+
+main h4, p {
+  color: #333;
 }
 
 .search-input {
@@ -119,5 +132,10 @@ main {
   width: 100%;
   max-width: 600px;
   position: relative;
+}
+
+button {
+  border-radius: 6px;
+  margin: 10px;
 }
 
